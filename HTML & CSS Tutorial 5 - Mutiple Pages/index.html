@@ -1,0 +1,88 @@
+<!Doctype HTML>
+
+<html lang="en" charset="utf-8">
+    
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Off Canvas Navigation Demo</title>
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <link href="css/style.css" rel="stylesheet">
+        
+    </head>
+
+    <body>
+        
+        <!-- hamburger icon-->
+        <input type="checkbox" id="menu"/>
+        <label for="menu" class="hamburger mobile_only">
+            <span class="material-icons-round">menu</span>
+        </label>
+        <!-- end hamburger icon-->
+        
+        <!-- off canvas navigation -->
+        <nav class="off_navi">          
+            <h3>Navigation</h3>
+            <ul class="navi_bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <h3>Social Media</h3>
+            <ul class="social">
+                <li><a href="#"><span class="material-icons-round icon_red">facebook</span></a></li>
+                <li><a href="#"><span class="material-icons-round icon_red">mic</span></a></li>
+                <li><a href="#"><span class="material-icons-round icon_red">science</span></a></li>
+            </ul>
+        </nav>
+        <!-- end off canvas navigation -->
+
+        <div id="wrapper">
+            
+            <header class="sticky">
+                    <div class="container">
+                        
+                        <div class="logo">LOGO</div>
+                        
+                        <nav class="main_navi non-mobile">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="product.html">Product</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                        
+                    </div>
+            </header>
+            
+            <div id="about_hero">
+                <div class="container">
+                    <h1>This is about page</h1>
+                    <a href="#">Read More</a>
+                </div>
+            </div> <!--end of about_hero-->
+
+            <div class="dark_layer">
+            </div>
+            
+            <footer>
+                <div class="container">
+                    <p>Copyright 2021 &copy; Web Design. All Rights Reserved.</p>
+                </div>
+            </footer>
+
+        </div> <!-- end wrapper -->
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+    </body>
+
+</html>
